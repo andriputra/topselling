@@ -203,6 +203,9 @@
         top: 0px;
         right: 15px;
         height: 37px;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
     }
     .flash {
         padding: 20px 0px 20px;
@@ -587,6 +590,26 @@
     .kategori-produk > .list-of-category{
         border: 1px solid #eaeaea;
         margin-bottom: 20px;
+        display: inline-block;
+        width: 46.8%;
+        padding: 10px;
+    }
+    .kategori-produk > .list-of-category:nth-child(odd){
+        margin-right: 15px;
+    }
+    .kategori-produk > .list-of-category .text-btn{
+        margin-left: 0px;
+    }
+    .kategori-produk > .list-of-category .text-btn h3{
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .kategori-produk > .list-of-category .text-btn button {
+        color: #667688;
+        width: 100%;
+        font-size: 12px;
     }
     .slider_flash .owl-item .item .description, 
     .slider_promo_list .owl-item .item .description, 
@@ -594,7 +617,8 @@
         padding: 10px 0px;
     }
     .section {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 0px;
     }
     .logo-share {
         padding: 40px 0px;
